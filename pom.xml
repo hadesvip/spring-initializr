@@ -15,7 +15,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.10.RELEASE</version>
+    <version>2.0.0.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
@@ -27,19 +27,17 @@
 
   <dependencies>
 
-
-    <!--0.6.0目前有点问题:jar冲突-->
-    <!--<dependency>-->
-      <!--<groupId>io.spring.initializr</groupId>-->
-      <!--<artifactId>initializr-web</artifactId>-->
-      <!--<version>0.6.0.BUILD-SNAPSHOT</version>-->
-    <!--</dependency>-->
-
     <dependency>
       <groupId>io.spring.initializr</groupId>
       <artifactId>initializr-web</artifactId>
-      <version>0.4.0.RELEASE</version>
+      <version>0.6.0.BUILD-SNAPSHOT</version>
     </dependency>
+
+    <!--<dependency>-->
+    <!--<groupId>io.spring.initializr</groupId>-->
+    <!--<artifactId>initializr-web</artifactId>-->
+    <!--<version>0.4.0.RELEASE</version>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
